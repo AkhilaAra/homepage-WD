@@ -1,0 +1,28 @@
+body {
+    background-color: brown;
+    font-size: 20px;
+}
+
+p {
+    background-color: burlywood;
+    color:brown;
+
+    border:100px solid cadetblue;
+
+    /* margin will create external space around element */
+    margin: 50px;
+
+
+    padding: 50px;
+}
+
+h1 {
+    color: greenyellow;
+}
+
+/* in css, classes are denotated by a . in front of their class name */
+.banner {
+    background-color:coral;
+    font-size:40px;
+    text-align:center;
+}
