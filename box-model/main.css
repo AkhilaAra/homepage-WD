@@ -1,0 +1,49 @@
+img {
+    max-width: 100%;
+}
+
+.block {
+    background-color: bisque;
+    border:1px solid;
+    padding:10px;
+    margin:10px;
+    width: 100px;
+    height: 100px;
+}
+
+.inline {
+    background-color: chartreuse;
+    border:1px solid;
+    
+    /* margin, padding, width, & height work inconsistently on inline elements & should be avoided when possible */
+
+}
+/* inline-block combines the qualities of both block and inline, allowing us to add width, height, padding & margin to inline elements */
+.inline-block {
+    background-color: darkmagenta;
+    border:1px solid;
+    display:inline-block;
+    margin:20px;
+    padding:20px;
+    width:100px;
+    height:100px;
+}
+
+.content-box {
+    background-color: brown;
+    width:200px;
+    height:200px;
+    padding:50px;
+    border:10px solid cornflowerblue;
+    margin:20px;
+}
+
+.border-box {
+    background-color: rgb(183, 255, 173);
+    width:200px;
+    height:200px;
+    padding:50px;
+    border:10px solid rgb(214, 229, 255);
+    margin:20px;
+    box-sizing:border-box;
+}

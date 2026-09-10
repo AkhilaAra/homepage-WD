@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(140, 222, 53);
+    font-size: 20px;
+}
+
+p {
+    border: 5px dotted;
+    padding: 30px;
+
+    color: darkblue;
+}
+
+h1 {
+    color: darkblue;
+}
+
+ol {
+    color:darkblue;
+}
