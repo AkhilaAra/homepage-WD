@@ -1,13 +1,35 @@
+.image-container {
+  display: flex;
+}
+
+
+/* Forces images to scale down and take equal width proportionally */
+.image-container img {
+  width: 100%;
+  max-width: 33.33%; /* Adjust based on your image count (e.g., 50% for 2 images) */
+  height: auto; /* Maintains aspect ratio */
+}
+
+
 body {
     background-color: rgb(232, 28, 123);
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 h1 {
     color: rgb(0, 0, 123);
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 h2 {
     color: rgb(0, 0, 123);
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 p {
@@ -17,4 +39,6 @@ p {
     padding:30px;
 
     border: 5px dotted;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
