@@ -1,13 +1,13 @@
 body {
-    background-color: brown;
+    background-color: rgb(255, 42, 0);
     font-size: 20px;
 }
 
 p {
-    background-color: burlywood;
-    color:brown;
+    background-color: rgb(255, 187, 98);
+    color:rgb(255, 30, 0);
 
-    border:100px solid cadetblue;
+    border:100px solid rgb(17, 247, 255);
 
     /* margin will create external space around element */
     margin: 50px;
