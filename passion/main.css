@@ -62,3 +62,15 @@ p {
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+.websites {
+    background-color: aliceblue;
+
+    border: dotted 10px;
+    border-color: blue;
+
+    text-align: center;
+
+    margin: 20px;
+    padding: 20px;
+}
