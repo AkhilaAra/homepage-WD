@@ -10,20 +10,16 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+
+    filter: saturate(150%);
 }
 
 h1 {
     color: rgb(255, 255, 255);
 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-decoration:underline;
 
-}
-
-h2 {
-    color: rgb(255, 255, 255);
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
@@ -32,16 +28,37 @@ p {
     
     padding:30px;
 
-    border: 5px dotted;
+    border: 2px dotted;
+
+    text-align: center;
+
+    background-color: white;
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 p {
-    color: white;
+    color: blue;
 }
 
 .banner {
     color:gold;
     background-color: rgb(44, 12, 202);
+}
+
+.list {
+    color:blue;
+
+    font-size: 20px;
+    
+    padding:30px;
+    margin: 30px;
+
+    border: 2px dotted;
+
+    text-align: center;
+
+    background-color: white;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
