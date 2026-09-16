@@ -1,39 +1,33 @@
-.image-container {
-  display: flex;
-}
-
-
-/* Forces images to scale down and take equal width proportionally */
-.image-container img {
-  width: 100%;
-  max-width: 33.33%; /* Adjust based on your image count (e.g., 50% for 2 images) */
-  height: auto; /* Maintains aspect ratio */
-}
-
-
 body {
-    background-color: rgb(232, 28, 123);
+    background-color: rgba(28, 205, 232, 0.147);
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
+body {
+    background-image: url(images/bluecircles.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
-    color: rgb(0, 0, 123);
+    color: rgb(255, 255, 255);
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
 
 h2 {
-    color: rgb(0, 0, 123);
+    color: rgb(255, 255, 255);
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
 }
 
 p {
-    color: rgb(0, 0, 123);
+    color: rgb(0, 0, 255);
     font-size: 20px;
     
     padding:30px;
@@ -41,4 +35,13 @@ p {
     border: 5px dotted;
 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+p {
+    color: white;
+}
+
+.banner {
+    color:gold;
+    background-color: rgb(44, 12, 202);
 }
