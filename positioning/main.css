@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.box {
+    background-color: darkcyan;
+    border:1px solid;
+    width:100px;
+    height: 100px;
+    margin:20px 0px; /* auto center aligns automatically */
+}
+
+.relative {
+    background-color: darkorange;
+    /* rules below will be more important */
+    position: relative;
+    /* conflicting commands wll be chosen randomly either or */
+    top: 100px;
+    right:10px;
+}
+
+.fixed {
+    background-color:rgb(222, 0, 122);
+    position:fixed;
+    top:0;
+    right:0;
+    margin:0px;
+}
+
+.sticky {
+    background-color:lavender;
+    position: sticky;
+    bottom: 0;
+}
+
+.absolute {
+    background-color:chartreuse;
+    position: absolute;
+    top:200px;
+    left:500px;
+}
+
+.parent {
+    background-color: darkblue;
+    width:300px;
+    height:300px;
+    position:relative;
+}
+
+/* absolutely positioned elements will position themselves relative to the document body unless they have a parents/container that has also been positioned or been given a position value */
+.child {
+    background-color:goldenrod;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.smiley {
+    background-color: burlywood;
+    width:200px;
+    height:200px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.eye {
+    background-color: darkolivegreen;
+    width:30px;
+    height:30px;
+    border:5px solid white;
+    position:absolute;
+
+    top:50px;
+}
+
+.left {
+    left:40px;
+}
+
+.right {
+    right:40px;
+}
+
+.mouth {
+    background-color: olive;
+    width:100px;
+    height:30px;
+    position: absolute;
+    left:50px;
+    bottom:50px;
+    border-radius: 0 0 100% 100%;
+}
+
+.hat {
+    background-color: black;
+    width:150px;
+    height:40px;
+    top:-35px;
+    left:25px;
+    position: absolute;
+}
