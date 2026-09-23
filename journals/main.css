@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(140, 222, 53);
+    background-color: rgb(133, 218, 42);
     font-size: 20px;
 }
 
@@ -8,12 +8,17 @@ p {
     padding: 30px;
 
     color: darkblue;
+
+    font-family: monospace;
 }
 
 h1 {
     color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
 }
 
 ol {
     color:darkblue;
+    font-family: monospace;
 }
