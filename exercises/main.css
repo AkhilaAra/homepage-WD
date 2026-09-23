@@ -46,27 +46,12 @@ p {
     font-size:x-large;
 }
 
-.first {
+.box {
     top:20px;
-    left:45px;
+    left:70px;
 }
 
-.passion {
+.position {
     bottom: 4px;
-    left:338px;
-}
-
-.passionn {
-    bottom:26px;
-    left:563px;
-}
-
-.journals {
-    bottom:48px;
-    left:811px;
-}
-
-.exercises {
-    bottom:72px;
-    left:1067px;
+    left:300px;
 }
