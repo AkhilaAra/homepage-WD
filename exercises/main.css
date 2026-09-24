@@ -1,6 +1,12 @@
 body {
-    background-color:rgb(255, 102, 0);
+    
+    background-image: url(blur.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
+    margin:0;
 }
 
 h1 {
@@ -66,3 +72,10 @@ p {
     left:812px;
 }
 
+.bar {
+    background-color:rgb(106, 0, 32);
+    width:1920px;
+    height:125px;
+    position: relative;
+    top:548px;
+}
