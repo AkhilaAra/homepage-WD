@@ -1,6 +1,13 @@
 body {
-
+    background-image: url(homepage-wd.png);
     background-color:rgb(255, 102, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    margin:0;
+
 
 }
 
@@ -75,6 +82,14 @@ p {
 
 .chronomorpher {
     position: relative;
-    top:250px;
+    top:125px;
     left:1460px;
+}
+
+.bar {
+    background-color:rgb(255, 210, 142);
+    width:1920px;
+    height:125px;
+    position: relative;
+    top:171px;
 }
