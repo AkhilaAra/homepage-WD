@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background-color: rgb(196, 255, 211);
+    font-family: monospace;
+    font-size: 100px;
+    border: solid 10px;
+    gap: 10px;
+}
+
+
+.box {
+    padding: 15px;
+    width:1875px;
+    height: 500px;
+    overflow-x: scroll;
+    font-size: 20px;
+    line-height: 60px;
+    border: 4px dotted brown;
+    background-color: blanchedalmond;
+    position: relative;
+    top:100px;
+}
+
+.script {
+    font-size: 50px;
+}
