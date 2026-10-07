@@ -72,6 +72,11 @@ p {
     left:812px;
 }
 
+.animation {
+    bottom:72px;
+    left: 1088px;
+}
+
 .bar {
     background-color:rgb(106, 0, 32);
     width:1920px;
