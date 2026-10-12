@@ -2,6 +2,40 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color:azure;
+    transition: background-color 1s;
+}
+
 img {
     max-width:100%;
+}
+
+.responsive {
+    background-color: cadetblue;
+    padding:20px;
+    max-width:700px;
+}
+
+/* max-width = desktop first, media queries progressively get smaller
+min-width = mobile first, media queries progressively get larger */
+
+/* tabled screen size */
+@media screen and (max-width:600px) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    .responsive {
+        background-color: lightgreen;
+        padding:50px;
+        border:10px solid;
+    }
+}
+
+/* phone screen size */
+@media screen and (max-width: 900px) {
+    body {
+        background-color:black;
+    }
 }
