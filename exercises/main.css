@@ -79,6 +79,11 @@ p {
     left: 1088px;
 }
 
+.responsive {
+    bottom:95px;
+    left:1312px;
+}
+
 .goback {
     position:relative;
     top:320px;
