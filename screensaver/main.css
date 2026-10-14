@@ -25,3 +25,120 @@ body {
 
     text-wrap:unset;
 }
+
+.dot {
+    background-color: rgb(255, 0, 136);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+
+    position:relative;
+}
+
+.one {
+    bottom:1385px;
+    left:20px;
+
+    animation: move 2s infinite alternate, scale 15s infinite alternate;
+}
+
+
+.two {
+    animation: left 2s infinite alternate, scale 15s infinite alternate;
+
+    left:1315px;
+    bottom:1060px
+}
+
+
+.three {
+    bottom:740px;
+    right:590px;
+
+    animation: move 2s infinite alternate, scale 15s infinite alternate;
+}
+
+
+.four {
+
+    animation: left 2s infinite alternate, scale 15s infinite alternate;
+
+    left:707px;
+    bottom:415px
+}
+
+@keyframes move {
+    0% {
+       left:0; 
+    }
+    100% {
+        left:85%;
+    }
+}
+
+@keyframes left {
+    0% {
+       left:0; 
+    }
+    100% {
+        left:-85%;
+    }
+}
+
+.five {
+
+    animation: move 2s infinite alternate, scale 15s infinite alternate;
+
+    bottom:1060px;
+    left:20px;
+}
+
+.six {
+
+    animation: move 2s infinite alternate, scale 15s infinite alternate;
+
+    bottom:420px;
+    left:20px;
+}
+
+
+.whitecenter {
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+
+    position: relative;
+
+    bottom:1192px;
+    left:500px;
+}
+
+.whitetop {
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+
+    position: relative;
+
+    bottom:645px;
+    left:91px;
+}
+
+.whitebottom {
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+
+    position: relative;
+
+    top:318px;
+    right:208px;
+}
+
