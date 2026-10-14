@@ -75,21 +75,26 @@ p {
     left:811px;
 }
 
+.structure {
+    position: relative;
+    bottom: 72px;
+    left: 1077px;
+}
+
 .exercises {
     bottom:95px;
     left:1320px;
+}
+
+.screensaver {
+    bottom: 118px;
+    left: 1579px;
 }
 
 .chronomorpher {
     position: relative;
     top:125px;
     left:1460px;
-}
-
-.structure {
-    position: relative;
-    bottom: 72px;
-    left: 1077px;
 }
 
 .bar {

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    background-color: black;
+    margin:0;
+    overflow: hidden;
+}
+
+.text {
+    color: rgb(234, 255, 0);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: justify;
+
+    line-height: 107px;
+    font-kerning:unset;
+
+    text-wrap:unset;
+}
