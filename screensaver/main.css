@@ -62,7 +62,7 @@ body {
 
 .four {
 
-    animation: left 2s infinite alternate, scale 15s infinite alternate;
+    animation: left 2s infinite alternate;
 
     left:707px;
     bottom:415px
@@ -92,7 +92,7 @@ body {
     }
     100% {
         left:-85%;
-        background-color:blue;
+        background-color:deeppink;
     }
 }
 
@@ -124,6 +124,8 @@ body {
 
     bottom:1192px;
     left:500px;
+
+    text-decoration: none;
 }
 
 .whitetop {
