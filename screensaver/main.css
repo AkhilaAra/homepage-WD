@@ -71,18 +71,28 @@ body {
 @keyframes move {
     0% {
        left:0; 
+        background-color: rgb(255, 0, 136);
+    }
+    50% {
+        background-color:blue;
     }
     100% {
         left:85%;
+        background-color:deeppink;
     }
 }
 
 @keyframes left {
     0% {
        left:0; 
+       background-color: rgb(255, 0, 136);
+    }
+    50% {
+        background-color:blue;
     }
     100% {
         left:-85%;
+        background-color:blue;
     }
 }
 
@@ -117,7 +127,7 @@ body {
 }
 
 .whitetop {
-    color: white;
+    color: deeppink;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
@@ -126,11 +136,11 @@ body {
     position: relative;
 
     bottom:645px;
-    left:91px;
+    left:91.5px;
 }
 
 .whitebottom {
-    color: white;
+    color: blue;
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
@@ -138,7 +148,7 @@ body {
 
     position: relative;
 
-    top:318px;
+    top:319px;
     right:208px;
 }
 
