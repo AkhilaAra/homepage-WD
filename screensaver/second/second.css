@@ -54,7 +54,7 @@ body {
 
     position:relative;
 
-    animation: top 20s infinite 10s;
+    animation: top 15s infinite 5s;
 }
 
 @keyframes top {
