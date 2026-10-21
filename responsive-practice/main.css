@@ -67,3 +67,14 @@ min width = mobile first
     width: calc(50% - 5px);
   }
 }
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: darkorange;
+    }
+
+    .left, .center {
+        width:100%;
+    }
+}
