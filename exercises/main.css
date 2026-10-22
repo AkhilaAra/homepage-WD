@@ -89,7 +89,7 @@ p {
     left:1580px;
 }
 
-.javascriptfolder {
+.secondrow {
     position: relative;
     top:75px;
 }
@@ -97,6 +97,16 @@ p {
 .javascript {
     bottom:75px;
     left:61px;
+}
+
+.jquery {
+    left:339px;
+    bottom:99px;
+}
+
+.secondrow {
+    position: relative;
+    top:75px;
 }
 
 .goback {
