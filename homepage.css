@@ -33,6 +33,8 @@ p {
 
 .folder {
     margin: 50px;
+
+    position:relative;
 }
 
 .list {
@@ -56,45 +58,50 @@ p {
 }
 
 .first {
-    top:20px;
+    bottom:135px;
     left:45px;
 }
 
 .passion {
-    bottom: 4px;
+    bottom: 160px;
     left:338px;
 }
 
 .passionn {
-    bottom:26px;
+    bottom:185px;
     left:561px;
 }
 
 .journals {
-    bottom:48px;
+    bottom:208px;
     left:811px;
 }
 
 .structure {
     position: relative;
-    bottom: 72px;
+    bottom: 228px;
     left: 1077px;
 }
 
 .screensaver {
-    bottom:117px;
+    bottom:273px;
     left:1325px;
 }
 
 .exercises {
-    bottom: 95px;
-    left: 1575px;
+    bottom: 20px;
+    left: 48px;
 }
 
 .chronomorpher {
     position: relative;
-    top:125px;
+    top:70px;
     left:1460px;
+}
+
+.puzzle {
+    bottom:295px;
+    left:1575px;
 }
 
 .bar {
@@ -103,4 +110,9 @@ p {
     height:125px;
     position: relative;
     top:171px;
+}
+
+.exercise {
+    top:80px;
+    left:0;
 }

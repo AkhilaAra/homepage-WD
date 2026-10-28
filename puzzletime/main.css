@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+body {
+    margin:0;
+    /* overflow: hidden; */
+}
+
+.hello {
+    padding:30px;
+    border:0;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-image: url(AdobeStock_2024842363.jpeg);
+}
+
+.board {
+    display:flex;
+    margin:auto;
+    position:relative;
+    bottom:65px;
+}
+
+.lighthouse {
+    position:relative;
+    left:80px;
+    bottom:1100px;
+}
+
+.tapeone {
+    position: relative;
+    bottom:2100px;
+    right:1500px;
+}
+
+.tapetwo {
+    position: relative;
+    bottom:1960px;
+    left:100px;
+}
+
+.puzzle {
+    position:relative;
+}
+
+.draggable {
+    cursor:grab;
+}
+
+.one {
+    left:1350px;
+    bottom:1000px;
+}
+
+.two {
+    right:450px;
+    bottom:700px;
+}
+
+.three {
+    left:775px;
+    bottom:500px;
+}
+
+.four {
+    left:625px;
+    bottom:400px;
+}
+
+.five {
+    right:800px;
+    bottom:400px;
+}
+
+.six {
+    left:300px;
+    bottom:800px;
+}
+
+.seven {
+    left:0;
+    bottom:1000px;
+}
+
+.eight {
+    left:0px;
+    bottom:890px;
+}
+
+.nine {
+    left:200px;
+    bottom:1160px;
+}
+
+.ten {
+    right:100px;
+    bottom:1050px;
+}
+
+.eleven {
+    right:200px;
+    bottom:900px;
+}
+
+.twelve {
+    left:850px;
+    bottom:1100px;
+}
+
+.thirteen {
+    left:700px;
+    bottom:1450px;
+}
+
+.fourteen {
+    left:700px;
+    bottom:1000px;
+}
+
+.fifteen {
+    left:550px;
+    bottom:1450px;
+}
+
+.sixteen {
+    left:150px;
+    bottom:1000px;
+}
+
+.seventeen {
+    left:100px;
+    bottom:800px;
+}
+
+.eighteen {
+    right:50;
+    bottom:1300px;
+}
+
+.nineteen {
+    right:100px;
+    bottom:1400px;
+}
+
+.twenty {
+    right:350px;
+    bottom:900px;
+}
+
+.twentyone {
+    left:1100px;
+    bottom:1000px;
+}
+
+.twentytwo {
+    left:800px;
+    bottom:1700px;
+}
+
+.twentythree {
+    left:550px;
+    bottom:1700px;
+}
+
+.twentyfour {
+    right:1000px;
+    bottom:1000px;
+}
+
+.twentyfive {
+    left:120px;
+    bottom:1200px;
+}
+
+.twentysix {
+    left:100px;
+    bottom:1100px;
+}
+
+.twentyseven {
+    left:0px;
+    bottom:1500px;
+}
+
+.twentyeight {
+    bottom:1300px;
+    left:50px;
+}
+
+.twentynine {
+    bottom:1500px;
+}
+
+.thirty {
+    bottom:1150px;
+    left:1250px;
+}
+
+.thirtyone {
+    bottom:1700px;
+    left:1000px;
+}
+
+.thirtytwo {
+    bottom:1400px;
+    right:600px;
+}
+
+.thirtythree {
+    bottom:1220px;
+    right:750px;
+}
+
+.thirtyfour {
+    bottom:1900px;
+    left:500px;
+}
+
+.thirtyfive {
+    bottom:1400px;
+    left:200px;
+}
+
+.thirtysix {
+    bottom:1500px;
+}
+
